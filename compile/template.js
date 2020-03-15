@@ -1,12 +1,12 @@
-const { _myNewPackage } = require('./mnp')
+const { _bulma } = require('./bulma')
 
 /**
- * @methodType {_myNewPackage.myNewPackage}
+ * @methodType {_bulma.bulma}
  */
-function myNewPackage(config) {
-  return _myNewPackage(config)
+function bulma(config) {
+  return _bulma(config)
 }
 
-module.exports = myNewPackage
+module.exports = bulma
 
 /* typal types/index.xml namespace */

@@ -5,26 +5,26 @@
 
 /* typal types/index.xml externs */
 /** @const */
-var _myNewPackage = {}
+var _bulma = {}
 /**
  * Options for the program.
  * @record
  */
-_myNewPackage.Config
+_bulma.Config
 /**
  * A boolean option. Default `true`.
  * @type {boolean|undefined}
  */
-_myNewPackage.Config.prototype.shouldRun
+_bulma.Config.prototype.shouldRun
 /**
  * A text to return.
  * @type {string|undefined}
  */
-_myNewPackage.Config.prototype.text
+_bulma.Config.prototype.text
 
 /* typal types/api.xml externs */
 /**
- * {{ description }}
- * @typedef {function(!_myNewPackage.Config): !Promise<string>}
+ * Bulma Class Properties And Types Definitions For JSX.
+ * @typedef {function(!_bulma.Config): !Promise<string>}
  */
-_myNewPackage.myNewPackage
+_bulma.bulma

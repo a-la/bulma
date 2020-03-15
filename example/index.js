@@ -1,7 +1,7 @@
-import myNewPackage from '../src'
+import bulma from '../src'
 
 (async () => {
-  const res = await myNewPackage({
+  const res = await bulma({
     text: 'example',
   })
   console.log(res)

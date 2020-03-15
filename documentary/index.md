@@ -1,11 +1,11 @@
-# my-new-package
+# @a-la/bulma
 
-%NPM: my-new-package%
+%NPM: @a-la/bulma%
 
-`my-new-package` is {{ description }}
+`@a-la/bulma` is Bulma Class Properties And Types Definitions For JSX.
 
 ```sh
-yarn add my-new-package
+yarn add @a-la/bulma
 ```
 
 ## Table Of Contents
