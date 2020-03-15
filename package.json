@@ -2,8 +2,9 @@
   "name": "@a-la/bulma",
   "version": "0.0.0-pre",
   "description": "Bulma Class Properties And Types Definitions For JSX.",
-  "main": "compile/index.js",
+  "main": "src/index.js",
   "module": "src/index.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "t": "zoroaster -a",
     "test": "yarn t test/spec test/mask",
@@ -12,6 +13,7 @@
     "lib": "depack src/depack.js -o compile/bulma.js -a -c --source_map_include_content",
     "test-compile": "yarn test -e test-compile",
     "lint": "eslint .",
+    "bulma": "alanode bulma",
     "doc": "doc -o README.md -n _bulma -a -d",
     "d": "yarn-s template d1 externs",
     "d1": "typal compile/index.js types/index.js -u -t types/index.xml",
@@ -21,8 +23,8 @@
   "files": [
     "src",
     "compile",
-    "types/externs.js",
-    "typedefs.json"
+    "bulma",
+    "types/index.d.ts"
   ],
   "externs": "types/externs.js",
   "repository": {
@@ -42,7 +44,7 @@
   },
   "homepage": "https://www.artd.eco",
   "devDependencies": {
-    "alamode": "^3.5.2",
+    "alamode": "^3.7.1",
     "depack": "^1.1.2",
     "documentary": "^1.37.1",
     "erte": "^1.2.0",
