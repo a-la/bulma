@@ -1,5 +1,9 @@
 ## 16 March 2020
 
+### [1.1.0](https://github.com/a-la/bulma/compare/v1.0.1...v1.1.0)
+
+- [feature] Support Preact 8.
+
 ### [1.0.1](https://github.com/a-la/bulma/compare/v1.0.0...v1.0.1)
 
 - [package] Remove externs field.
