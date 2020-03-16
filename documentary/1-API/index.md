@@ -10,21 +10,7 @@ The actual import doesn't do anything as the source file is blank. It is needed 
 
 Because of [a bug](https://github.com/microsoft/TypeScript/issues/28905) in VSCode, you won't see properties with hyphens, e.g., `is-loading` and will only see `isLoading`, but you can actually use both. The camel cases are added for discoverability of classes.
 
-<table>
-<tr><td>
-Full list of 816 Bulma classes.
-</td></tr><tr><td>
-<details>
-<summary>
-<em>Click to expand</em>
-
-<fork>example/list -f</fork>
-</summary>
-
-<fork>example/list</fork>
-</details>
-</td></tr>
-</table>
+See the <kbd>📙 [full list of Bulma classes](../../wiki/Bulma_Classes)</kbd> in Wiki.
 
 %~%
 

@@ -4,11 +4,14 @@
 
 `@a-la/bulma` is Bulma Class Properties And Types Definitions For JSX.
 
-```sh
-yarn add @a-la/bulma
-```
+<p align="center">
+  <img src="./doc/modal.gif" alt="bulma modal jsx autocompletions">
+</p>
 
-<img src="./doc/modal.gif" alt="modal autocompletions">
+```sh
+yarn add -D @a-la/bulma
+npm i --save-dev @a-la/bulma
+```
 
 ## Table Of Contents
 
