@@ -8,6 +8,8 @@
 yarn add @a-la/bulma
 ```
 
+<img src="./doc/modal.gif" alt="modal autocompletions">
+
 ## Table Of Contents
 
 %TOC%

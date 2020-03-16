@@ -23,8 +23,7 @@
   },
   "files": [
     "src",
-    "bulma/bulma.json",
-    "bulma/bulma.css",
+    "bulma",
     "types/index.d.ts"
   ],
   "externs": "types/externs.js",
