@@ -1,6 +1,6 @@
 {
   "name": "@a-la/bulma",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bulma Class Properties And Types Definitions For JSX.",
   "main": "src/index.js",
   "module": "src/index.js",
