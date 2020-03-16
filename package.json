@@ -14,6 +14,7 @@
     "test-compile": "yarn test -e test-compile",
     "lint": "eslint .",
     "bulma": "alanode bulma",
+    "types": "alanode bulma/types",
     "doc": "doc -o README.md -n _bulma -a -d",
     "d": "yarn-s template d1 externs",
     "d1": "typal compile/index.js types/index.js -u -t types/index.xml",
@@ -22,8 +23,8 @@
   },
   "files": [
     "src",
-    "compile",
-    "bulma",
+    "bulma/bulma.json",
+    "bulma/bulma.css",
     "types/index.d.ts"
   ],
   "externs": "types/externs.js",

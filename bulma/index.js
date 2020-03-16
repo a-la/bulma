@@ -20,6 +20,21 @@ if (status) {
     acc[key] = true
     return acc
   }, {})
-  writeFileSync('bulma/bulma.json', JSON.stringify(bootstrapMap, null, 2))
+  writeFileSync('bulma/map.json', JSON.stringify(bootstrapMap, null, 2))
+  const camelMap = {}
+  const camelCased = Object.entries(bootstrapMap).reduce((acc, [k, v]) => {
+    let replaced = false
+    const kk = k.replace(/-(\S)/g, (m, l) => {
+      replaced = true
+      return l.toUpperCase()
+    })
+    if (!replaced) return acc
+    acc[kk] = true
+    camelMap[kk] = k
+    return acc
+  }, {})
+  writeFileSync('bulma/bulma.json', JSON.stringify({
+    ...bootstrapMap, ...camelCased }, null, 2))
+  writeFileSync('bulma/camel.json', JSON.stringify(camelMap, null, 2))
 }
 // console.log(renameMap)
