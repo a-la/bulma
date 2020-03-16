@@ -1,7 +1,8 @@
-import 'react'
+import 'preact'
 
-declare module 'react' {
-  interface HTMLAttributes {
+declare global {
+  namespace JSX {
+    interface HTMLAttributes {
     /**
      * Add Bulma's `.delete` class to the element.
      */
@@ -6330,5 +6331,6 @@ declare module 'react' {
      * Add Bulma's `.hero-foot` class to the element. Alias for `hero-foot` prop.
      */
     heroFoot?: boolean
+    }
   }
 }

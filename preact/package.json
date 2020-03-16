@@ -1,0 +1,6 @@
+{
+  "name": "@a-la/bulma-preact",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts"
+}

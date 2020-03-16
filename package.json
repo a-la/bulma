@@ -14,7 +14,8 @@
     "test-compile": "yarn test -e test-compile",
     "lint": "eslint .",
     "bulma": "alanode bulma",
-    "types": "alanode bulma/types",
+    "react": "alanode dev/react",
+    "preact": "alanode dev/preact",
     "doc": "doc -o README.md -n _bulma -a -d",
     "wiki": "doc wiki -W wiki.git -d",
     "d": "yarn-s template d1 externs",
@@ -25,6 +26,7 @@
   "files": [
     "src",
     "bulma",
+    "preact",
     "types/index.d.ts"
   ],
   "repository": {
@@ -36,7 +38,9 @@
     "a-la",
     "bulma",
     "jsx",
-    "css"
+    "css",
+    "react",
+    "preact"
   ],
   "author": "Anton <anton@adc.sh>",
   "license": "AGPL-3.0",

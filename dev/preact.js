@@ -1,13 +1,15 @@
 import { EOL } from 'os'
-import classes from './map'
-import camel from './camel'
+import classes from '../bulma/map'
+import camel from '../bulma/camel'
 import { writeFileSync } from 'fs'
 
-const T = (tt) => `import 'react'
+const T = (tt) => `import 'preact'
 
-declare module 'react' {
-  interface HTMLAttributes<T> {
+declare global {
+  namespace JSX {
+    interface HTMLAttributes {
 ${tt}
+    }
   }
 }`
 
@@ -32,4 +34,4 @@ props.push(...propsCamel)
 let p = props.join(EOL).replace(/^/gm, '    ')
 const t = T(p)
 
-writeFileSync('types/index.d.ts', t)
+writeFileSync('preact/index.d.ts', t)
