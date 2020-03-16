@@ -6,6 +6,6 @@
 
 GNU Affero General Public License v3.0
 
-<footer />
+<alamode-footer />
 
 %~ -1%
