@@ -28,20 +28,8 @@ Full list of 816 Bulma classes.
 
 %~%
 
-<!-- ## API
+## Closure Stylesheets
 
-The package is available by importing its default function:
-
-```js
-import bulma from '@a-la/bulma'
-```
+An annotated version of Bulma 0.8.0 is available in `bulma/bulma.css` where `/* @alternate */` annotations were added for compatibility with [Closure Stylesheets](https://github.com/artdecocode/closure-stylsheets-java).
 
 %~%
-
-<typedef method="bulma">types/api.xml</typedef>
-
-<typedef>types/index.xml</typedef>
-
-%FORK example%
-
-%~% -->

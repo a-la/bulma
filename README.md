@@ -14,6 +14,7 @@ yarn add @a-la/bulma
 
 - [Table Of Contents](#table-of-contents)
 - [Usage](#usage)
+- [Closure Stylesheets](#closure-stylesheets)
 - [Copyright & License](#copyright--license)
 
 <p align="center"><a href="#table-of-contents">
@@ -876,7 +877,13 @@ title
   <img src="/.documentary/section-breaks/1.svg?sanitize=true">
 </a></p>
 
+## Closure Stylesheets
 
+An annotated version of Bulma 0.8.0 is available in `bulma/bulma.css` where `/* @alternate */` annotations were added for compatibility with [Closure Stylesheets](https://github.com/artdecocode/closure-stylsheets-java).
+
+<p align="center"><a href="#table-of-contents">
+  <img src="/.documentary/section-breaks/2.svg?sanitize=true">
+</a></p>
 
 ## Copyright & License
 
